@@ -1,0 +1,41 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #007bff; /* Color de fondo del navbar */
+    padding: 10px 20px; /* Espaciado */
+    display: flex; /* Flexbox para alinear los elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos dentro del contenedor */
+  }
+  
+  .navbar-link {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+    margin-right: 20px; /* Espacio a la derecha */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: color 0.3s; /* Transición suave para el color */
+  }
+  
+  .navbar-link:hover {
+    color: #e0e0e0; /* Color del texto al pasar el mouse */
+  }
+  
+  .navbar-button {
+    background-color: #dc3545; /* Color rojo para el botón de cerrar sesión */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+  }
+  
+  .navbar-button:hover {
+    background-color: #c82333; /* Color del botón al pasar el mouse */
+  }
+  
